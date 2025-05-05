@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            display: flex;
+            height: 100vh;
+        }
+        #bloco-esquerda {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            background-color: #333;
+            color: white;
+        }
+        #foto {
+            padding: 20px;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #444;
+        }
+        #indice {
+            padding: 20px;
+            height: 60%;
+            background-color: #555;
+        }
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            display: flex;
+            height: 100vh;
+        }
+        #bloco-esquerda {
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            background-color: #333;
+            color: white;
+        }
+        #foto {
+            padding: 20px;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #444;
+        }
+        #indice {
+            padding: 20px;
+            height: 60%;
+            background-color: #555;
+        }
+        #bloco-direita {
+            flex: 1;
+            padding: 20px;
+            background-color: #999;
+            color: white;
+            text-align: justify;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloco-esquerda">
+        <div id="foto">
+            
+            <img src="loi1.jpg" alt="Imagem">
+        </div>
+        <div id="indice">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="bloco-direita">
+        <h2 id="sobre">Sobre</h2>
+        <p>Inteligência excepcional, habilidades de combate e capacidade de se disfarçar.</p>
+        <h2 id="experiencia">Experiência</h2>
+        <p>Disfarces Complexos: Ele domina a arte de se transformar em diferentes pessoas para se infiltrar em ambientes hostis.</p>
+        <p>Combate: Loid tem uma vasta experiência em luta corpo a corpo e uso de armas, o que o torna altamente eficiente em missões de alto risco.</p>
+        <p>Estratégia: Ele demonstra habilidades estratégicas excepcionais, sempre analisando situações com precisão para alcançar seus objetivos.</p>
+        <p>Missões Diplomáticas e Sensíveis: Como sua missão atual na série, ele usa a criação de uma família falsa para cumprir tarefas que envolvem questões políticas delicadas.</p>
+        <h2 id="educacao">Educação</h2>
+        <p>Todas.</p>
+        <h2 id="projetos">Projetos</h2>
+        <p>Operação Strix: Este é o projeto principal.</p>
+	<h2 id="contato">Contato</h2>
+ 	<p>Confidencial.</p>
+    </div>
+</body>
+</html>curriculo loid
